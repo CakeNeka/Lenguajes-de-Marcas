@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Concurso de Talentos</h1>
+    <h2>Para realizar la inscripción rellene los datos</h2>
+
+    <form action="">
+      <fieldset>
+        <legend>Datos de envio</legend>
+        <label for="name">Nombre</label> <br/>
+        <input type="text" id="name" name="nombre" /> <br/>
+        <label for="">Dirección</label> <br/>
+        <input type="text" id="direccion" name="direccion" />
+        <label for=""></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>El mejor juego de la historia</legend>
+        <input type="radio" id="age" name="best_game" value="Age"/>
+        <label for="age">El Age</label> <br/>
+        <input type="radio" id="sacred" name="best_game" value="Sacred"/>
+        <label for="sacred">El Sacred</label> <br />
+        <input type="radio" id="pro" name="best_game" value="pro"/>
+        <label for="pro">El Pro</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tipo de talento</legend>
+        <input type="checkbox"  id="talent1"  name="vehicle1" value="prestidigitacion">
+        <label for="vehicle1"> Prestidigitación</label><br>
+        <input type="checkbox"  name="vehicle2" value="java">
+        <label for="vehicle2"> Programo en java</label><br>
+        <input type="checkbox"  name="vehicle3" value="baile">
+        <label for="vehicle3"> Baile</label><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+
+      <fieldset>
+        <legend>Elija su menu</legend>
+        <label for="">Tamaño del bocadillo</label>
+        <!-- Pendiente de cambiar lo siguiente   -->
+        <label for="cars">Choose a car:</label> <br>
+        <select id="cars" name="carlist" form="carform" size="4">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+        </select>
+      </fieldset>
+    </form>
+  </body>
+</html>
