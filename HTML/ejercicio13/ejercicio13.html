@@ -1,58 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Concurso de Talentos</h1>
-    <h2>Para realizar la inscripción rellene los datos</h2>
+<html lang="es">
 
-    <form action="">
-      <fieldset>
-        <legend>Datos de envio</legend>
-        <label for="name">Nombre</label> <br/>
-        <input type="text" id="name" name="nombre" /> <br/>
-        <label for="">Dirección</label> <br/>
-        <input type="text" id="direccion" name="direccion" />
-        <label for=""></label>
-      </fieldset>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
 
-      <fieldset>
-        <legend>El mejor juego de la historia</legend>
-        <input type="radio" id="age" name="best_game" value="Age"/>
-        <label for="age">El Age</label> <br/>
-        <input type="radio" id="sacred" name="best_game" value="Sacred"/>
-        <label for="sacred">El Sacred</label> <br />
-        <input type="radio" id="pro" name="best_game" value="pro"/>
-        <label for="pro">El Pro</label>
-      </fieldset>
+<body>
+  <h1>Oferta de empleo de Neka Games</h1>
+  <h2>Para realizar la inscripción rellene los datos</h2>
+  <p>
+    A continuación recibirá un formulario que debe rellenar para solicitar
+    una posible entrevista de trabajo con nuestra empresa de desarrollo
+  </p>
 
-      <fieldset>
-        <legend>Tipo de talento</legend>
-        <input type="checkbox"  id="talent1"  name="vehicle1" value="prestidigitacion">
-        <label for="vehicle1"> Prestidigitación</label><br>
-        <input type="checkbox"  name="vehicle2" value="java">
-        <label for="vehicle2"> Programo en java</label><br>
-        <input type="checkbox"  name="vehicle3" value="baile">
-        <label for="vehicle3"> Baile</label><br><br>
-        <input type="submit" value="Submit">
-      </fieldset>
+  <form action="">
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <label for="name">Nombre Completo</label> <br>
+      <input type="text" id="name" name="nombre" /> <br>
+      <label for="">Dirección</label> <br>
+      <input type="text" id="direccion" name="direccion" /> <br>
+      <label for="">Código Postal</label> <br>
+      <input type="text" id="CP" name="CP" /> <br>
+      <label for="">Correo Electrónico</label> <br>
+      <input type="text" id="correo" name="correo" /> <br>
+      <label for="">Número de teléfono</label> <br>
+      <input type="text" id="telefono" name="telefono" /> <br>
+    </fieldset>
 
-      <fieldset>
-        <legend>Elija su menu</legend>
-        <label for="">Tamaño del bocadillo</label>
-        <!-- Pendiente de cambiar lo siguiente   -->
-        <label for="cars">Choose a car:</label> <br>
-        <select id="cars" name="carlist" form="carform" size="4">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="opel">Opel</option>
-          <option value="audi">Audi</option>
-        </select>
-      </fieldset>
-    </form>
-  </body>
+    <fieldset>
+      <legend>Seleccione sus habilidades</legend>
+      <input type="checkbox" id="talento1" name="talento1" value="web">
+      <label for="talento1"> Diseño web</label><br>
+      <input type="checkbox" id="talento2" name="talento2" value="java">
+      <label for="talento2"> Programo en java</label><br>
+      <input type="checkbox" id="talento3" name="talento3" value="arte">
+      <label for="talento3"> Trabajos artísticos</label><br>
+      <input type="checkbox" id="talento4" name="talento4" value="paciencia">
+      <label for="talento4">Tengo mucha paciencia</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>¿Por qué quiere trabajar con nosotros?</legend>
+      <label for="fortalezas">¿Cuáles son tus fortalezas y debilidades?</label> <br>
+      <textarea name="fortalezas" rows="10" cols="100">mis fortalezas y debilidades</textarea> <br>
+      <label for="salario">¿Qué salario tienes en mente?</label> <br>
+      <input type="number" id="salario" name="salario" /> <br>
+    </fieldset>
+
+    <fieldset>
+      <legend>El mejor juego de la historia</legend>
+      <input type="radio" id="age" name="best_game" value="Age" />
+      <label for="age">El Age</label> <br>
+      <input type="radio" id="sacred" name="best_game" value="Sacred" />
+      <label for="sacred">El Sacred</label> <br>
+      <input type="radio" id="pro" name="best_game" value="pro" />
+      <label for="pro">El Pro</label> <br>
+      <input type="radio" id="overwatch" name="best_game" value="Overwatch" />
+      <label for="overwatch">El Overwatch</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Elija su menú</legend>
+      <label for="">Si no dispone de un bocadillo, se le proporcionará uno</label> <br>
+      <label for="bocadillo">Seleccione el tamaño del bocadillo</label> <br>
+      <select id="bocadillo" name="carlist" form="carform" size="5">
+        <option value="grande">Grande</option>
+        <option value="enorme">Enorme</option>
+        <option value="gigante">Gigante</option>
+        <option value="colosal">Colosal</option>
+        <option value="titanico">Titánico</option>
+      </select>
+    </fieldset>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+
 </html>
