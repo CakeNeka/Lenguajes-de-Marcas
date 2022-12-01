@@ -1,0 +1,15 @@
+
+h1 {    /* 4 veces el tamaño de la letra M por defecto */
+    font-size: 4em;
+    text-decoration: dotted;
+    background-color: aquamarine;
+}
+
+h2 {
+    font-size: 3em;
+    color: red;
+}
+
+h3 {
+    font-size: 2em;
+}   
