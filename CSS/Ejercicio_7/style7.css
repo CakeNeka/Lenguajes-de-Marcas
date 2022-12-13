@@ -1,20 +1,24 @@
 div#primera{
-    position: absolute;
     width: 400px;
     height: 400px;
     background-color: pink;
 }
 
 div#segunda{
-    position: absolute;
     width: 50%;
     height: 50%;
     background-color: aqua;
 }
 
 div#tercera{
-    position: absolute;
     width: 50%;
     height: 50%;
     background-color: whitesmoke;
+}
+
+
+div#cuarta{
+    width: 50%;
+    height: 50%;
+    background-color: pink;
 }

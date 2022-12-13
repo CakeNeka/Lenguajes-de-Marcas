@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+
+p#p1{
+    border: 5px solid pink;
+    margin: 0px;
+    fill: 0px;
+}
+
+p#p2{
+    border: 5px solid cyan;
+    margin: 5px;
+    fill: 5px;
+}
+
+p#p3{
+    border: 5px solid gold;
+    margin: 0px;
+    fill: 0px;
+}
