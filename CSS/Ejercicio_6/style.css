@@ -1,5 +1,17 @@
 div.primera{
     border: 5px solid black;
-    font: 1em;
+    font-size: 1em;
+    width: 50%;
 }
 
+div.segunda{
+    width: 33.33%;
+    border: 5px solid red;
+    font-size: 1.2em;
+}
+
+div.tercera{
+    width: 25%;
+    border: 5px solid blue ;
+    font-size: 0.8em;
+}   
