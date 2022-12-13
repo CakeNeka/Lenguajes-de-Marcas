@@ -1,0 +1,33 @@
+
+*{    
+    padding: 0px;
+    margin: 0px;
+}
+
+div#contenedor{
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    background-color: cyan;
+    padding: 1%;
+}
+
+div#columnaIzquierda{
+    width: 75%;
+    background-color: pink;
+}
+
+div#columnaDerecha{
+    width: 25%;
+    background-color: rgb(230, 255, 150) ;
+}
+
+div#pieDePagina{
+    width: 100%;
+    background-color: cyan;
+}
