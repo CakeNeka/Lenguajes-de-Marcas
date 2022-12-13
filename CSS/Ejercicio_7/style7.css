@@ -1,18 +1,18 @@
-div.primera{
+div#primera{
     position: absolute;
     width: 400px;
     height: 400px;
     background-color: pink;
 }
 
-div.segunda{
+div#segunda{
     position: absolute;
     width: 50%;
     height: 50%;
     background-color: aqua;
 }
 
-div.tercera{
+div#tercera{
     position: absolute;
     width: 50%;
     height: 50%;
