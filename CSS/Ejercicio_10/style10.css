@@ -1,0 +1,30 @@
+p {
+    width: 50%;
+    text-indent: 50px;
+
+}
+
+#primero{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+}
+
+#segundo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 45px;
+    text-align: right;
+}
+
+#tercero{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    line-height: 19px;
+    text-align: center;
+}
+
+p:first-letter{
+    font-size: 4em ;
+}
