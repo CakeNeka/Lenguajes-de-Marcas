@@ -31,3 +31,9 @@ div#pieDePagina{
     width: 100%;
     background-color: cyan;
 }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
