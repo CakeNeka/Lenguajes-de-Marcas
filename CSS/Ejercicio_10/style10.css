@@ -1,7 +1,6 @@
 p {
     width: 50%;
     text-indent: 50px;
-
 }
 
 #primero{
@@ -27,4 +26,5 @@ p {
 
 p:first-letter{
     font-size: 4em ;
+    text-transform: capitalize;
 }

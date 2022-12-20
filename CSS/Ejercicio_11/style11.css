@@ -1,0 +1,20 @@
+#ordenada li{
+    text-indent: 30px;
+}
+
+#desordenada li{
+    list-style-position: inside;
+} 
+
+#li1 {
+    list-style-image: url("img/adriano.png");
+}
+ 
+#li2{
+    list-style-image: url("img/trajano.png");
+}
+ 
+#li3{
+    list-style-image: url("img/JulioCesar.png");
+}
+ 
