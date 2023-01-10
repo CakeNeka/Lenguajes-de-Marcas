@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -12,6 +17,10 @@ header{
     width: 100%;
     height: 10%;
     background-color: rgb(149, 255, 255);
+}
+
+h2{
+    margin-bottom: 30px;
 }
 
 div#columnaIzquierda{
@@ -31,3 +40,27 @@ div#columnaDerecha{
 
     overflow: auto  ;
 }
+
+/* Navbar styles */
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+nav li a {
+    display: block;
+    width: 60px;
+    width: 100%;
+}
+
+nav li a:hover {
+    background-color: rgb(149, 255, 255);
+}
+
+img .center {
+    margin:auto;
+    margin: 200px;
+}
+
+
